@@ -113,6 +113,8 @@ class App extends Component {
     }
     return (
       <>
+
+<h1>U2FnYXI=</h1>
         <h1>Crypto-JS encryptAES</h1>
         <div className="form-group">
           <input className="form-control" value={this.state.inputText} onChange={this.handleInputTextChange} style={{width:'40%', height:40, marginRight: 20}} placeholder="Input Text" /> 
@@ -123,12 +125,12 @@ class App extends Component {
 
         <h1>Crypto-JS decryptAES</h1>
         <div className="form-group">
-          <input className="form-control" value={this.state.encryptedBase64} onChange={this.handleMsgChange} style={{width:'40%', height:40, marginRight: 20}} placeholder="Encrypted String" /> 
+          <input className="form-control" value={this.state.encryptedBase64} onChange={this.handleMsgChange} style={{width:'40%', height:50, marginRight: 20}} placeholder="Encrypted String" /> 
           <input className="form-control" value={this.state.key} onChange={this.handleDecryptKeyChange} style={{width:'40%', height:40}} placeholder="Key" />
         </div>
 
         <pre className="output"><code>{this.state.outputText}</code></pre>
-        <small><a href="https://stackblitz.com/edit/cryptojs-aes-encrypt-decrypt" target="_blank">(View source code)</a></small>
+        <small><a href="https://stackblitz.com/edit/cryptojs-aes-encrypt-decrypt" target="_blank">(CRYPTOGRAPHY)</a></small>
 
       </>
     );

@@ -1,8 +1,52 @@
-h1, p {
-  font-family: Lato;
+/* Set the background image for the page */
+body {
+  background-image: url('https://static.toiimg.com/thumb/msid-63415413,width-800,height-600,resizemode-75,imgsize-346861,pt-32,y_pad-40/63415413.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
+/* Set the font family and color for all headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(246, 246, 246);
+}
+
+/* Style links with an underline and hover effect */
+a {
+  text-decoration: none;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  color: rgb(245, 6, 6);
+  transition: border-bottom-color 0.2s ease-in-out;
+}
+
+a:hover {
+  border-bottom-color: rgb(255, 255, 255);
+}
+
+/* Style buttons with a gradient background and hover effect */
+button {
+  background: linear-gradient(to bottom, #66ccff 0%, #3366cc 100%);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+button:hover {
+  background: linear-gradient(to bottom, #3366cc 0%, #66ccff 100%);
+}
 .output {
-  border: 1px solid #efefef;
-  padding:10px;
+  border: 3px solid #efefef;
+  padding: 10px;
+  color: white; /* set text color to white */
 }
